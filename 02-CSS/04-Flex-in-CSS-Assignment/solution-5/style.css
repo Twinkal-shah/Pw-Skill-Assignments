@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+}
+
+.left-container{
+    width: 70%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 150px;
+}
+
+.verify-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.coverImg{
+    position: relative;
+    bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-inline: 10px;
+    color: #212121;
+}
+
+button{
+    padding: 8px 15px;
+    margin-inline: 10px;
+    background-color: #ffffff;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+}
+
+.login-btn{
+    background-color: #FB792B;
+    color: #ffffff;
+}
+
+.heading{
+    padding: 60px 40px 60px 150px;
+}
+
+.heading h1{
+    margin-bottom: 16px;
+}
+
+.heading h3{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.heading h3 :first-child{
+    color: #01BB0A;
+}
+
+.heading h3 :nth-child(2){
+    color: #FB792B;
+}
+
+.heading h3 :last-child{
+    color: #213D77;
+}
+
+.status{
+    display: flex;
+    padding: 0px 40px 0px 130px;
+    margin-bottom: 60px;
+}
+
+.status-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.book-btn{
+    background-color: #213D77;
+    color: #ffffff;
+}
+
+p, .fromTo-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fromTo{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    padding: 20px 60px;
+    margin: 20px 60px 0px 140px;
+}
+
+.fromTo .fromTo-icon{
+    position: relative;
+    right: 42px;
+}
+
+.schedule{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 20px 60px;
+    margin: 20px 60px 40px 140px;
+}
+
+.schedule .shift{
+    position: relative;
+    right: 42px;
+}
+
+p{
+    color: #6e6e6e;
+}
+
+.addmore{
+    margin: 20px 60px 40px 140px;
+    background-color: #01BB0A;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1em;
+    width: 700px;
+    height: 60px;
+}
+
+.addmore:hover{
+    background-color: #019308;
+}

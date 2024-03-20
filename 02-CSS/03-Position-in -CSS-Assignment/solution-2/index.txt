@@ -1,0 +1,28 @@
+
+                                         SOLUTION-2
+
+
+
+Difference between position-relative & position-absolute
+
+position-relative                                     position-absolute
+
+1. relative positioning moves an element         while absolute positioning moves an element 
+relative to its default position                relative to its nearest positioned ancestor.
+on the page.
+
+2. A relative positioned element can be moved    absolute positioned element can be moved in 
+  to any direction by using the properties       a same way you’d move a relative positioned element using 
+   such as left, right, top and bottom.          properties such as left, right, top and bottom, 
+                                                  but the values provided in those properties are 
+                                                 calculated based upon its closest ancestor’s
+
+
+3. it will break the normal document flow        it will not break the normal document flow
+to position the element on the page.             to position the element on the page.
+
+4. syntax                                        syntax
+{                                                {                                               
+    position:relative;                              position:absolute;
+}                                                }
+   

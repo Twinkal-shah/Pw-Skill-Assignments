@@ -1,0 +1,16 @@
+div{
+    background-color: rgb(218, 218, 49);
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 18px;
+    opacity: 1;
+}
+img{
+    height: 150px;
+    width: 250px;
+    border-radius: 18px;
+}
+div:hover{
+    opacity: 50%;
+}

@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.Box{
+    background-color: rgb(70, 244, 70);
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+nav{
+    background-color: rgb(94, 127, 248);
+    padding: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin-right: 15px;
+    margin-left: 25px;
+    color: antiquewhite;
+}
+nav ul li a:hover{
+    color: rgb(43, 3, 91);
+}

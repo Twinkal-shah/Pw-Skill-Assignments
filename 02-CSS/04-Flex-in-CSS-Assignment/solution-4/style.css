@@ -1,0 +1,72 @@
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.price-section {
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #F4F2FD;;
+  box-sizing: border-box;
+}
+.card{
+    width: 250px;
+    height: fit-content;
+    border-radius: 8px;
+    background-color: #fff;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.card-name{
+    font-size: 32px;
+}
+.card-use{
+    font-size: 16px;
+}
+.card-price{
+    font-size: 36px;
+    color: #202842;
+    margin: 10px 0;
+}
+
+.card-features{
+    display: flex;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+}
+
+.subscribe-now-button{
+    background-color: #202842;
+    color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 25px;
+    margin: 30px auto;
+    border-color: transparent;
+}
+
+.card-2{
+    background-color: #202842;
+    color: #fff;
+}
+
+.card-2-price{
+    color: #fff;
+}
+
+.card-2-btn{
+    background-color: #fff;
+    color: #000;
+}

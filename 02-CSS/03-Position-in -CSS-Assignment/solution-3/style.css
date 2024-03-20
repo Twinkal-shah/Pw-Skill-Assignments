@@ -1,0 +1,12 @@
+.card {
+  padding: 10px;
+  background-color: rgb(229 229 206);
+  border-radius: 5px;
+}
+.card-image {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 200px;
+  width: 300px;
+}

@@ -1,0 +1,25 @@
+.heading{
+    background-color: aqua;
+}
+.main-heading{
+    color: red;
+    font-size: 15px;
+}
+.middle-heading{
+    color: blue;
+    font-size: 12px;
+}
+
+.title{
+    color: green;
+}
+.sub-title{
+    color: black;
+}
+.para{
+    color: rgb(81, 4, 81);
+}
+.btn-primary{
+      background-color: black;
+      color: aquamarine;
+}

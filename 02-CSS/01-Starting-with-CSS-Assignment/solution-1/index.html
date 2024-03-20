@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution-1</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .internal {
+            color: brown;
+        }
+        .both {
+            color: chocolate;
+        }
+        .external {
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <!-- in the first div there is inline css  -->
+    <div style="color: black;">this is first div</div>
+    <!-- in second div internal css  -->
+    <div class="internal">this is second div</div>
+    <!-- i give all css to third div inline css wins from both external and internal  -->
+    <div class="external" style="color: rgb(4, 67, 27);">this is third div</div>
+    <!-- in fourth div there is internal and external both css external win  -->
+    <div class="both">this is fourth div</div>
+    <!-- in fifth there is inline css  -->
+    <div style="color: blue;">this is fifth div</div>
+</body>
+</html>

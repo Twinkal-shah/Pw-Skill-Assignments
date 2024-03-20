@@ -1,0 +1,33 @@
+.z-index{
+    position: relative;
+}
+.main{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    color: aqua;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.BOX-1{
+    background-color: brown;
+    z-index: 1;
+}
+.BOX-2{
+    background-color: chartreuse;
+    top: 50px;
+    left: 50px;
+}
+.BOX-3{
+    background-color: violet;
+    top: 120px;
+    left: 113px;
+    z-index: 1;
+
+}
+.BOX-4{
+    background-color: rgb(73, 11, 244);
+    top: 178px;
+    left: 150px;
+}

@@ -1,0 +1,31 @@
+nav{
+    background-color: rgb(94, 127, 248);
+    padding: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    margin-right: 15px;
+    margin-left: 25px;
+    color: antiquewhite;
+    padding:10px;
+}
+nav ul li a:hover{
+    color: rgb(43, 3, 91);
+}
+a.link-1{
+    border: 2px dotted black;
+}
+a.link-2{
+    border: 3px double black;
+}
+a.link-3{
+    border: 2px inset black;
+}
+a.link-4{
+    border: 2px dashed black;
+}
+a.link-5{
+    border: 2px solid black;
+}

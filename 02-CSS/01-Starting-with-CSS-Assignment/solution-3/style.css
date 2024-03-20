@@ -1,0 +1,26 @@
+.firstname{
+    background-color: rgb(68, 68, 199);
+}
+.lastname{
+    background-color: rgb(5, 116, 79);
+}
+.age{
+    background-color: rgb(7, 248, 248);
+}
+.email{
+    background-color: rgb(181, 116, 241);
+}
+.password{
+    background-color: rgb(247, 181, 181);
+}
+.confirmpassword{
+    background-color: rgb(110, 144, 77);
+}
+button{
+    opacity: 60%;
+    font-size: 20px;
+}
+#terms:checked {
+  /* This is the property used to color checkbox checked state */
+ accent-color: rgb(80, 22, 6)
+}

@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 20px;
+  margin: auto 0px;
+  height: fit-content;
+  font-weight: bold;
+}
+
+.nav {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto 0px;
+  height: fit-content;
+  font-family: "Red Rose", cursive;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 15px;
+  color: #84837c;
+}
+
+.list-1.active {
+  color: azure;
+}
+nav ul li.button > button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #af9c3b;
+  border-radius: 10px;
+  color: #b39f3b;
+  font-family: "Red Rose", cursive;
+}
+
+main {
+  padding: 20px;
+}
+section {
+  margin-top: 20px;
+}
