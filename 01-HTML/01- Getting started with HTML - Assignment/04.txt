@@ -1,0 +1,23 @@
+que-4: Write a short note on Tag and element with an example? 
+
+             Defination of tag
+             
+HTML tags are the keywords on a web page that define how your web browser must format and display your web page all tags contain two parts, an opening, and a closing tag. For example, <html> is the opening tag and </html> is the closing tag. Note that the closing tag has the same text as the opening tag, but has an additional forward-slash ( / ) character.
+
+example of tag
+
+<a> this is anchor tag </a>
+<h1> this is heading tag </h1>
+
+in this 1st example <a> is the opening tag and </a> is the closing tag closing tag has an additional forward-slash. the content this is anchor tag is text within anchor element.
+
+
+definition of element
+
+HTML documents are made up of elements that define content in that webpage It is made of tags that surround different types of content
+In simple terms anything from the start tag to the end tag is an HTML element.
+
+
+Opening tag: It is used to tell the browser where the content material starts.
+Closing tag: It is used to tell the browser where the content material ends.
+Content: It is the actual content material inside the opening and closing tags.

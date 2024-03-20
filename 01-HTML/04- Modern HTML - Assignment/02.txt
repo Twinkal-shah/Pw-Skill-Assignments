@@ -1,0 +1,10 @@
+HTML ENTITIES:-
+      HTML entities are the reserved characters that have special meaning when used in an HTML document. Each of these codes starts with an ampersand and ends with a semicolon. Now that we’ve understood the definition of HTML entities, let’s go ahead and explore what symbol and character entities are.
+
+      example:-
+            1. &nbsp; = non-breaking space
+            2. 	&lt;  = less dhan <
+            3. 	&gt;  = greater than >                                                   
+            4.&amp;   = ampersand
+            5.&quot;  = double quotation mark
+            6. 	&cent; = cent

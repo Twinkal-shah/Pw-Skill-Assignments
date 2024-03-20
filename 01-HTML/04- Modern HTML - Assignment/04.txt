@@ -1,0 +1,8 @@
+1. Semantic Tag:-
+            Semantic HTML means using correct HTML elements for their correct purpose as much as possible. Semantic elements are elements with a meaning; if you need a button, use the <button> element and not a <div> element.
+
+2. Alternative Text:-
+            The alt attribute provides an alternate text for an image, if the user for some reason cannot view it because of slow connection, an error in the src attribute, or if the user uses a screen reader.  
+
+3. Declare the Language:-
+             You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.                                            

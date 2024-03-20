@@ -1,0 +1,21 @@
+Accessibility:-
+        Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections as treating everyone the same, and giving them equal opportunities, no matter what their ability or circumstances. 
+
+Importance of Accessibility:-
+    1.Disability = Visual problems such color blindness, cataract, glaucoma, and blindness hamper ssers’ ability to browse websites its ensure that everyone can use online information.
+
+    2. Ethical = Universal web accessibility ensures all users have the same rights and privileges while doing business online.
+
+    3. Business = By using universal design strategies your site becomes more user friendly to all, not just those with disabilities This will ultimately improve your site’s performance. Whether this is communicating messages and information more clearly, streamlining site navigation, collecting leads, or generating revenue.
+
+    4. Legal = If your website isn’t fully accessible, then it is discriminatory towards those with disabilities Depending on your country and state, and where your audience is located, this could leave you open to lawsuits.  
+
+
+Benefits of Accessibility:- 
+    1. Increased website traffic
+    2. Reduced risk of legal complications
+    3. Accessible websites ensure you reach more social groups, growing your customer base in the long term.
+    4. Helps develop an innovative business mindset
+    5. Improved website SEO
+    6. Reduced page loading times
+    7. Promotes business growth 
