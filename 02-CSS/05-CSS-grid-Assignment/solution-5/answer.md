@@ -1,0 +1,2 @@
+
+In CSS Grid Layout, both justify-items and justify-self are properties used to align grid items along the inline (horizontal) axis within their grid cells. However, they are applied at different levels of the grid structure.

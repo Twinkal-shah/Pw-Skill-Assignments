@@ -1,0 +1,34 @@
+body {
+  margin: 50px;
+}
+
+.box {
+  background-color: #393636;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 30px;
+  order: 1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  width: 800px;
+}
+
+.container :nth-child(odd) {
+  background-color: #857c7c;
+  color: #3d3b3b;
+}
+
+.box1 {
+  order: 3;
+}
+.box2 {
+  order: 6;
+}
+.box8 {
+  order: 2;
+}

@@ -1,0 +1,26 @@
+.container{
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 10px;
+    width: 100%;
+    max-width: 1000px;
+    grid-auto-rows: 200px;
+}
+
+.box{
+    background-color: #bfba9d;
+    color: black;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.firstbox{
+    grid-column: span 2;
+}
+
+.secondbox{
+    grid-row: span 2;
+}
