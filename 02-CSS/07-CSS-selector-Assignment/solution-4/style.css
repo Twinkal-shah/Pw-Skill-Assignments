@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.btn{
+    margin: 20px;
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: rgb(43, 99, 253);
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(73, 121, 253);
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px #21212137;
+}
