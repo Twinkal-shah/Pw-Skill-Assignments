@@ -1,0 +1,26 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Media Queries */
+/* For screens smaller than 800px */
+@media (max-width: 800px) {
+    .gallery img {
+        width: 50%;
+    }
+}
+
+/* For screens smaller than 500px */
+@media (max-width: 500px) {
+    .gallery img {
+        width: 100%;
+    }
+}
