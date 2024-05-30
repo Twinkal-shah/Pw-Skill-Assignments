@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilory', sans-serif;
+    background: url(./Assets/background-image.png);
+    background-size: cover;
+    font-size: 1rem;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 6px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.navbar .search-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn{
+    padding: 6px 8px;
+    border: none;
+    background-color: rgb(241, 23, 96);
+    border-radius: 4px;
+    color: #ffffffde;
+}
+
+.search-bar span{
+    color: rgb(241, 23, 96);
+}
+
+main{
+    display: flex;
+}
+
+.left-side{
+    flex-basis: 60%;
+}
+
+h1{
+    font-size: 4rem;
+    margin: 2.8em 0em 0em;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 1em 0 1em 0;
+    color: #555;
+}
+
+.button{
+    display: flex;
+    gap: 16px;
+}
+
+.lg-btn{
+    font-size: 1.2rem;
+    padding: .4em 1em;
+    background-color: rgb(241, 23, 96);
+    border: none;
+    color: #ffffffde;
+    border-radius: .2em;
+}
+
+.lg-btn-outline{
+    font-size: 1.2rem;
+    padding: .4em 1em;
+    background-color: transparent;
+    border: solid 1px rgb(241, 23, 96) ;
+    color: rgb(241, 23, 96);
+    border-radius: .2em;
+}
+
+.contact{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    bottom: 50px;
+}
+
+.right-side{
+    flex-basis: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.loan-btn{
+    font-size: 1rem;
+    padding: .4em .6em;
+    display: flex;
+    align-items: center;
+    gap: .8em;
+    position: absolute;
+    border-radius: 2.4em;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.car-btn{
+    top: 20%;
+    left: 46%;
+}
+.home-btn{
+    top: 40%;
+    right: 10%;
+}
+
+@media screen and (max-width: 360px) {
+    .button{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    h1{
+        margin-top: .6em;
+    }
+
+    img{
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-bar{
+        display: none;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .lg-btn{
+        font-size: 1rem;
+    }
+    .lg-btn-outline{
+        font-size: 1rem;
+    }
+    main{
+        flex-direction: column-reverse;
+    }
+    h1{
+        margin-top: .6em;
+    }
+    .loan-btn{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .search-bar span{
+        display: none;
+    }
+
+    .right-side .hero-image{
+        position: absolute;
+        right: 10px;
+        margin-top: 50px;
+    }
+}
