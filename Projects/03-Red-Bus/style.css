@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Gilory', sans-serif;
+}
+
+/* ................Navbar started........... */
+
+.nav-wrapper{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 12px 8px;
+    margin: 0px auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.navbar-left , .navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+}
+
+.navbar-left span{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #e1e1e1;
+    margin-inline: 24px;
+}
+
+.navbar-left .icons{
+    display: flex;
+    gap: 2em;
+    font-size: 1rem;
+    font-style: 50;
+    color: #555;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.flex img{
+    filter: grayscale(1);
+    width: 2em;
+}
+
+.menu{
+    display: none;
+}
+
+/* ..........Navbar End............. */
+
+/* ....... Hero sec start ....... */
+
+.hero-img{
+    max-width: 100%;
+    height: 520px;
+    background: url(./assets/heroSection-image.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.hero-img h1{
+    font-size: 2.2rem;
+    padding-top: 64px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    border-radius: 28px;
+    background-color: #d84e55;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search :first-child{
+    border-radius: 28px 0px 0px 28px;
+    position: relative;
+}
+
+.journey-icon{
+    padding: 30px 36px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-right: 1px solid gainsboro;
+    background-color: #ffffff;
+}
+
+.journey{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.journey input{
+    outline: none;
+    border: none;
+    width: 160px;
+}
+
+.journey input[type="text"]{
+    font-size: 1.2rem;
+}
+
+.journey label{
+    position: relative;
+    top: 13px;
+    z-index: 2;
+}
+
+.exchange{
+    position: absolute;
+    right: -18px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    outline: 1px solid #e1e1e1;
+}
+
+.btn-wrapper{
+    padding: 38px;
+    color: #ffffff;
+}
+
+/* .......... Hero sec end ....... */
+
+/* ......... trending sec start........  */
+
+.trending{
+    position: relative;
+    top: -146px;
+    background-color: #ffffff;
+    border-radius: 28px;
+    padding-block: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    margin: 0px auto 36px;
+}
+
+.trending-title{
+    font-size: 2rem;
+    color: #555;
+}
+
+.view-btn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border: 1px solid #555;
+    border-radius: 24px;
+    color: #1034d9;
+}
+
+
+.carosol{
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    gap: 24px;
+    overflow: auto;
+}
+
+.trending-card{
+    color: #fff;
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: linear-gradient(to top right, #1034d9, #3e84b1);
+    border-radius: 16px;
+}
+
+.trending-img-wrapper img{
+    border-radius: 50%;
+}
+.img-wrapper{
+    padding-block: 20px;
+}
+
+.img-discription{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bus-btn{
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 28px;
+    background-color: #ffffff40;
+}
+
+.first-btn{
+    padding: 2px 12px;
+    border-radius: 6px;
+    background-color: #ffffff40;
+    border: 1px dashed #fff;
+}
+
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.sponsered{
+    position: absolute;
+    top: 360px;
+}
+
+.img-sponsered{
+    margin: 0px auto;
+    max-width: 76%;
+}
+
+.img-sponsered img{
+    max-width: 100%;
+    border-radius: 16px;
+}
+/* ......... trending sec end........  */
+
+/* ............. Services sec start ..........  */
+  .service{
+    margin-block: 140px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .service-details {
+    flex-basis: 60%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  } 
+
+  .service-title>div{
+    font-size: 2.2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+}
+
+.service-title>div span{
+    font-weight: 600;
+}
+
+.change{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.change span{
+    color: #e1e1e1;
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.padding-change{
+    padding-block: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.service-img{
+    position: relative;
+}
+
+.service-img :first-child{
+    position: absolute;
+    top: 160px;
+    right: 18px;
+}
+
+.common-flex{
+    display: flex;
+    gap: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.red{
+    color: #d84e55;
+    border-bottom: 1px solid #d84e55;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service-details button{
+    background-color: #d84e55;
+    border: none;
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+/* ............. Services sec end ..........  */
+
+/* <!-- ............. App sec start ..........  --> */
+ 
+.app-wrapper{
+    display: flex;
+    gap: 60px;
+}
+.app{
+    background-color: #c35757;
+    border-radius: 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-image: url(./assets/app-store-background.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 32px;
+}
+
+.app h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.app-card{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 40px 32px;
+    background-color: #fff;
+    color: #555;
+    gap: 20px;
+    border-radius: 16px;
+}
+
+.app-card p{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rating{
+    display: flex;
+    gap: 80px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.rating-value{
+    padding-left: 32px;
+    border-left: 2px solid #e1e1e1;
+}
+
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.downloads{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #212121;
+}
+
+.stores{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #212121;
+}
+
+.same-wrapper{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.same{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+/* <!-- ............. App sec end ..........  --> */
+
+/* <!-- ............. Primo sec start ..........  --> */
+
+.primo{
+    margin-block: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.primo-wrapper{
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+
+.primo-card{
+    display: flex;
+    background: linear-gradient(to right, #294898, #7B4686);
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 20px;
+    width: 352px;
+}
+
+.primo-card p{
+    font-size: 0.9rem;
+}
+
+.primo-card>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* <!-- ............. Primo sec end ..........  --> */
+
+/* <!-- ............. Parterned sec start ..........  --> */
+
+.parterened{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.parterened h2{
+    font-size: 2.4rem;
+    color: #555;
+}
+
+.rtc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rtc :first-child{
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.rtc-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rtc-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+
+}
+
+.rtc-image img{
+    width: 100px;
+    height: 100px;
+}
+/* <!-- ............. Parterned sec end ..........  --> */
+
+/* <!-- ............. Busoperator sec start ..........  --> */
+
+.bus-operator{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-block: 60px;
+    color: #555;
+}
+
+.num-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num-btn :first-child{
+    font-size: 1.8rem;
+}
+
+.other-btn{
+    padding: 10px 20px;
+    border: 1px solid #555;
+    border-radius: 16px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.grid div{
+    padding: 16px 10px;
+}
+
+/* <!-- ............. Busoperator sec end ..........  --> */
+
+/* <!-- ............. Faq sec start ..........  --> */
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 120px;
+}
+
+.faq-text{
+    font-size: 2.4rem;
+}
+
+.faq-categories{
+    display: flex;
+    gap: 32px;
+}
+
+.faq-categories div{
+    padding: 16px 10px;
+}
+.current{
+    color: #d84e55;
+    border-bottom: 2px solid #d84e55;
+}
+
+.faq-questions{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.faq-questions>div{
+    padding: 28px;
+    border-radius: 12px;
+    border: 1px solid #e1e1e1;
+    font-weight: 500;
+}
+
+.faq-questions div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* <!-- ............. Faq sec end ..........  --> */
+
+/* <!-- ............. Global presence sec start..........  --> */
+
+.global{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 120px auto 80px;
+}
+
+.global-big{
+    font-size: 2.4rem;
+}
+
+.global-image-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.global-image-wraper div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.arrow-up{
+    align-self: end;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 8px;
+    margin-top: 60px;
+    padding: 16px 12px;
+}
+/* <!-- ............. Global presence sec end ..........  --> */
+
+/* <!-- ............. Footer sec start ..........  --> */
+
+
+footer{
+    background-color: #F7F7F7;
+}
+
+.footer-wraper{
+    display: flex;
+    flex-direction: column;
+    padding-block: 20px;
+}
+
+.upper-foot-wraper{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 32px;
+    border-bottom: 2px solid rgb(234, 234, 234);
+    color: rgb(62, 62, 82);
+}
+
+.upper-foot-wraper div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.9rem;
+    padding-inline: 24px;
+}
+.upper-foot-wraper div h4 {
+    color: rgb(33, 33, 33);
+    font-size: 1.2rem;
+}
+
+.lower-foot-wraper{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 32px;
+    border-bottom: 2px solid #EAEAEA;
+    color: #3E3E52;
+}
+
+.big-one{
+    flex-basis: 28%;
+    line-height: 1.5rem;
+}
+.lower-foot-wraper img{
+    width: 100px;
+}
+
+.lower-foot-wraper div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.9rem;
+    padding-inline: 24px;
+}
+
+.lower-foot-wraper div h4{
+    color: #212121;
+    font-size: 1.2rem;
+}
+
+.cp-con{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 32px;
+}
+
+.copy-right{
+    color: #3E3E52;
+    font-size: 0.9rem;
+}
+
+.contact{
+    display: flex;
+    gap: 16px;
+}
+/* <!-- ............. Footer sec end ..........  --> */
+
+
+@media screen and (max-width:468px){
+
+    
+    .navbar-left .icons{
+        display: none;
+
+    }
+
+    .navbar-right{
+        display: none;
+    }
+
+    #logo{
+        width: 54px;
+    }
+
+    .menu{
+        display: block;
+    }
+    
+    .hero-img{
+        background-position: center;
+    }
+
+    .search{
+        flex-direction: column;
+    }
+
+    .journey-icon{
+        padding: 20px 60px;
+        border-bottom: 1px solid gainsboro;
+        border-right: none;
+    }
+
+    .search :first-child{
+        border-radius: 28px 28px 0px 0px;
+    }
+
+    .exchange{
+        right: 32px;
+        top: 68px;
+        transform: rotate(90deg);
+        padding: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        outline: 1px solid #e1e1e1;
+    }
+
+    .trending{
+        top: 120px;
+    }
+
+    .trending-title{
+        font-size: 1.2rem;
+    }
+
+    .view-btn{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 8px 20px;
+    }
+
+    .sponsered{
+        top: 330px;
+    }
+
+    .service{
+        margin-block: 200px;
+    }
+
+    .service-img{
+        display: none;
+    }
+
+    .service-title>div{
+        text-align: center;
+        font-size: 1.2rem;
+        letter-spacing: 0;
+        word-spacing: 0;
+    }
+
+    .service-details{
+        flex-basis: 100%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .type{
+        gap: 20px;
+    }
+
+    .service-details button{
+        background-color: #d84e55;
+        border: none;
+        border-radius: 12px;
+        padding: 12px 16px;
+        margin-top: 24px;
+        color: #ffffff;
+        font-size: 1rem;
+
+}
+
+.app-wrapper{
+    flex-direction: column;
+}
+
+.service{
+    margin: 240px 0 80px;
+}
+
+.same-wrapper{
+    gap: 40px;
+}
+
+.primo{
+    margin-block: 80px;
+}
+
+.primo>div>img{
+    width: 260px;
+}
+
+.primo-wrapper{
+    flex-direction: column;
+}
+
+.rtc-img-wrapper{
+    gap: 10px;
+    overflow: auto;
+
+}
+
+.grid{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid div{
+    padding: 12px 8px;
+}
+
+.faq-categories{
+    flex-wrap: wrap;
+}
+
+.global{
+    margin: 40px auto 28px;
+}
+
+.global-image-wraper{
+    overflow: auto;
+    gap: 10px;
+}
+
+.global-big{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.upper-foot-wraper{
+    flex-wrap: wrap;
+}
+
+.upper-foot-wraper div{
+    padding-block: 16px;
+    flex-basis: 50%;
+}
+
+.lower-foot-wraper{
+    flex-wrap: wrap;
+}
+
+.lower-foot-wraper img{
+    width: 64px;
+}
+
+.lower-foot-wraper div{
+    padding-block: 16px;
+    flex-basis: 50%;
+}
+
+.big-one{
+    flex-basis: 50%;
+    line-height: 1.5em;
+}
+
+.contact{
+    gap: 12px;
+}
+
+.cp-con{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operator{
+    display: block;
+}
+}
