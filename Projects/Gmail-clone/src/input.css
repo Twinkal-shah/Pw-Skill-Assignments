@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #D0D0D0;
+}
+
+.bg-compose {
+    --tw-bg-opacity: 1;
+    background-color: rgb(194 231 255 / var(--tw-bg-opacity));
+  }
+  
+  .bg-inbox {
+    --tw-bg-opacity: 1;
+    background-color: rgb(211 227 253 / var(--tw-bg-opacity));
+  }
+  
+  .bg-input {
+    --tw-bg-opacity: 1;
+    background-color: rgb(234 241 251 / var(--tw-bg-opacity));
+  }
+  
+  .bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgb(246 248 252 / var(--tw-bg-opacity));
+  }
+  
+  .bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
+  .text-gray {
+    --tw-text-opacity: 1;
+    color: rgb(95 99 104 / var(--tw-text-opacity));
+  }
+  
+  .text-light-gray {
+    --tw-text-opacity: 1;
+    color: rgb(103 106 105 / var(--tw-text-opacity));
+  }
+  .text-primary-blue {
+    --tw-text-opacity: 1;
+    color: rgb(76 130 216 / var(--tw-text-opacity));
+  }
